@@ -4,13 +4,14 @@
 <meta charset="ISO-8859-1">
 <title>Subscribe to CosmoFarmer.com</title>
 <link href="global.css" rel="stylesheet">
+<script type="text/javascript" src="lab6.js"></script>
 <style>
 
 </style>
 </head>
 <body>
 <h1>Reader Subscription Form</h1>
-<form class="subform"  method="post" action="submit.html">
+<form class="subform">
 	<p>
 		<label for="name" class="label">What is your name?</label>
 		<input type="text" name="name" id="name">
@@ -49,7 +50,7 @@
 		<textarea name="comments" cols="35" rows="4" id="comments"></textarea>
 	</p>
 	<p>
-		<input type="submit" value="Subscribe">
+		<input onclick="validate()" type="Button" value="Subscribe">
 	</p>
 </form>
 </body>
